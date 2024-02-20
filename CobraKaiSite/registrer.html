@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="registrer.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div id="logo">
+        <img src="Cobra-Kai-Logo.png" alt="" height="100" width="200">
+      </div>
+
+      <div id="menu">
+        <a href="home.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="login.html">Log in</a>
+      </div>
+    </div>
+  </header>
+
+  <hr class="linha_decorativa">
+
+  <div class="testbox">
+    <form action="/" class="form">
+      <div class="banner">
+      </div>
+      <p>Fighter Information</p>
+      <div class="item">
+        <label for="name">Name<span>*</span></label>
+        <input id="name" type="text" name="name" required />
+      </div>
+      <div class="item">
+        <label for="email">Email Address<span>*</span></label>
+        <input id="email" type="email" name="email" required />
+      </div>
+      <div class="item">
+        <label for="address">Address<span>*</span></label>
+        <input id="address" type="address" name="address" required />
+      </div>
+      <div class="item">
+        <label for="city">City<span>*</span></label>
+        <input id="city" type="text" name="city" required />
+      </div>
+      <div class="item">
+        <label for="state">State<span>*</span></label>
+        <input id="state" type="text" name="state" required />
+      </div>
+      <div class="item">
+        <label for="zip">Zip<span>*</span></label>
+        <input id="zip" type="text" name="zip" required />
+      </div>
+      <div class="item">
+        <label for="phone">Phone<span>*</span></label>
+        <input id="phone" type="number" name="phone" required />
+      </div>
+      <div class="item">
+        <label for="bdate">Date of Birth<span>*</span></label>
+        <input id="bdate" type="date" name="bdate" required />
+        <i class="fas fa-calendar-alt"></i>
+      </div>
+      <div class="question">
+        <label>Gender</label>
+        <div class="question-answer">
+          <div>
+            <input type="radio" value="none" id="radio_1" name="gender" />
+            <label for="radio_1" class="radio"><span>Male</span></label>
+          </div>
+          <div>
+            <input type="radio" value="none" id="radio_2" name="gender" />
+            <label for="radio_2" class="radio"><span>Female</span></label>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <p>Kimono Size</p>
+        <select>
+          <option selected value="" disabled selected></option>
+          <option value="course-type">Small</option>
+          <option value="short-courses">Medium</option>
+          <option value="featured-courses">Large</option>
+          <option value="undergraduate">Extra Large</option>
+        </select>
+      </div>
+
+      <div class="btn-block">
+        <button type="submit" href="/">SUBMIT</button>
+      </div>
+    </form>
+  </div>
+
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+        <img src="Cobra-Kai-Logo.png" height="100" width="200">
+
+        <p class="footer-links">
+            <a href="home.html">Home</a>
+            ·
+            <a href="about.html">About us</a>
+            ·
+            <a href="login.html">Login</a>
+            ·
+
+        </p>
+
+        <p class="footer-company-name">Cobra Kai © 2019</p>
+
+        <div class="footer-icons">
+
+            <a href="#"><i class="fa fa-facebook"></i><img src="facebookimg.jpg" alt=""></a>
+            <a href="#"><i class="fa fa-twitter"><img src="twitterimg.jpg" alt=""></i></a>
+
+
+        </div>
+
+    </div>
+
+    <div class="footer-right">
+
+        <p>Contact Us</p>
+
+        <form action="#" method="post">
+
+            <input type="text" name="email" placeholder="E-mail" style="color: white;">
+            <textarea name="message" placeholder="Message" style="color: rgb(255, 255, 255);"></textarea>
+            <button>Send</button>
+
+        </form>
+
+    </div>
+</footer>
+
+</body>
+
+</html>
